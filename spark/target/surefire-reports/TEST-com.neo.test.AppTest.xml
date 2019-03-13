@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.neo.test.AppTest" time="0.08" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.neo.test.AppTest" time="0.205" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="http.proxyHost" value="127.0.0.1"/>
     <property name="java.specification.version" value="10"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/Users/xiechanghong/Code/SourceCodeDemo/spark/target/test-classes:/Users/xiechanghong/Code/SourceCodeDemo/spark/target/classes:/Users/xiechanghong/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/xiechanghong/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
-    <property name="https.proxyPort" value="50173"/>
     <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -19,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/xiechanghong/Code/SourceCodeDemo/spark/target/surefire/surefirebooter9311604740597823978.jar /Users/xiechanghong/Code/SourceCodeDemo/spark/target/surefire 2019-02-20T22-55-37_079-jvmRun1 surefire15197320374857256611tmp surefire_113758738333269588330tmp"/>
+    <property name="sun.java.command" value="/Users/xiechanghong/Code/SourceCodeDemo/spark/target/surefire/surefirebooter390966765770732311.jar /Users/xiechanghong/Code/SourceCodeDemo/spark/target/surefire 2019-03-13T08-31-18_519-jvmRun1 surefire15112840231321405444tmp surefire_17731270499781304717tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/xiechanghong/Code/SourceCodeDemo/spark/target/test-classes:/Users/xiechanghong/Code/SourceCodeDemo/spark/target/classes:/Users/xiechanghong/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/xiechanghong/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -30,14 +28,13 @@
     <property name="java.version.date" value="2018-04-17"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="https.proxyHost" value="127.0.0.1"/>
     <property name="basedir" value="/Users/xiechanghong/Code/SourceCodeDemo/spark"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/xiechanghong/Code/SourceCodeDemo/spark/target/surefire/surefirebooter9311604740597823978.jar"/>
+    <property name="surefire.real.class.path" value="/Users/xiechanghong/Code/SourceCodeDemo/spark/target/surefire/surefirebooter390966765770732311.jar"/>
     <property name="user.script" value="Hans"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -65,7 +62,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="54.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="http.proxyPort" value="50173"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.neo.test.AppTest" time="0.001"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.neo.test.AppTest" time="0.005"/>
 </testsuite>

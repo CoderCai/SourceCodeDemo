@@ -1,7 +1,245 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a51b7d6-cbc8-424a-b64f-30a1536694ea" name="Default" comment="" />
+    <list default="true" id="2a51b7d6-cbc8-424a-b64f-30a1536694ea" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/neo/consumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/neo/provider/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/neo/provider/impl/DemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/neo/provider/service/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/resources/consumer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/resources/provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo/target/dubbo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo/target/surefire-reports/TEST-com.neo.test.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo/target/surefire-reports/com.neo.test.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/target/kafka-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/target/kafka-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/target/surefire-reports/TEST-com.neo.test.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/target/surefire-reports/TEST-com.neo.test.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/target/surefire-reports/com.neo.test.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/target/surefire-reports/com.neo.test.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/com/neo/test/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/mybatis-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/surefire-reports/TEST-com.neo.test.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/surefire-reports/com.neo.test.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/test-classes/com/neo/test/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-0.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-0.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-15.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-15.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-17.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-17.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-18.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-19.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-0-9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-0.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-0.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-15.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-15.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-17.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-17.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-18.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-19.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-1-9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-0.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-0.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-15.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-15.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-17.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-17.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-18.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-19.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-2-9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-0.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-0.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-15.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-15.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-17.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-17.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-18.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-19.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-3-9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-0.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-0.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-15.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-15.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-17.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-17.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-18.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-19.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-4-9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-0.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-0.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-15.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-15.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-17.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-17.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-18.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-19.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-5-9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-0.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-0.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-15.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-15.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-17.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-17.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-18.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-19.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-6-9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-0.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-0.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-15.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-15.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-17.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-17.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-18.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-19.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-7-9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-0.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-0.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-15.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-15.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-17.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-17.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-18.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-19.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-8-9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-0.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-0.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-15.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-15.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-17.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-17.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-18.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-19.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/io/netty/example/http2/tiles/tile-9-9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/netty-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/netty-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/surefire-reports/TEST-com.neo.test.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/surefire-reports/TEST-com.neo.test.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/surefire-reports/com.neo.test.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/surefire-reports/com.neo.test.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/target/spark-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spark/target/spark-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/target/surefire-reports/TEST-com.neo.test.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark/target/surefire-reports/TEST-com.neo.test.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/target/surefire-reports/com.neo.test.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spark/target/surefire-reports/com.neo.test.AppTest.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/kafka/target/" />
@@ -18,112 +256,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+            <state relative-caret-position="232">
+              <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EchoServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoServer.java">
+      <file leaf-file-name="Protocol.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/rpc/Protocol.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/config/ServiceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="177">
+              <caret line="218" selection-start-line="218" selection-end-line="218" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#1171#1524#0" expanded="true" />
-                <element signature="e#1523#1524#0" expanded="true" />
+                <element signature="e#7358#7359#0" expanded="true" />
+                <element signature="e#7391#7392#0" expanded="true" />
+                <element signature="e#13514#13530#0" expanded="true" />
+                <element signature="e#33466#33467#0" expanded="true" />
+                <element signature="e#33497#33498#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerBootstrap.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
+      <file leaf-file-name="ServiceBean.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/config/spring/ServiceBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="131" column="27" selection-start-line="131" selection-start-column="27" selection-end-line="131" selection-end-column="27" />
+            <state relative-caret-position="149">
+              <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChannelInitializer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
+      <file leaf-file-name="NettyServer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/netty4/NettyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="53" column="72" selection-start-line="53" selection-start-column="72" selection-end-line="53" selection-end-column="72" />
+            <state relative-caret-position="199">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChannelInboundHandlerAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EchoServerHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoServerHandler.java">
+      <file leaf-file-name="SimpleApplicationEventMulticaster.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/event/SimpleApplicationEventMulticaster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractApplicationContext.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="576" selection-start-line="576" selection-end-line="576" />
+              <folding>
+                <element signature="e#13705#13706#0" expanded="true" />
+                <element signature="e#13737#13738#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassPathXmlApplicationContext.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Provider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/provider/Provider.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EchoClientHandler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EchoClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1082#1083#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EchoClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/echo/EchoClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -133,9 +359,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dubbo.version</find>
+      <find>netty</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -153,15 +386,23 @@
         <option value="$PROJECT_DIR$/spark/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/kafka/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoServerHandler.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoClientHandler.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/neo/echo2/EchoServerHandler.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoServer.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/neo/examples/udt/echo/bytes/ByteEchoClientHandler.java" />
         <option value="$PROJECT_DIR$/netty/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoClient.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/java/com/neo/provider/service/DemoService.java" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/java/com/neo/provider/impl/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/java/com/neo/provider/provider.xml" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/java/com/neo/consumer/Consumer.java" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/java/com/neo/provider/Provider.java" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/resources/provider.xml" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/resources/consumer.xml" />
+        <option value="$PROJECT_DIR$/dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -185,12 +426,15 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -202,95 +446,142 @@
             <path>
               <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SourceCodeDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SourceCodeDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SourceCodeDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SourceCodeDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SourceCodeDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="neo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SourceCodeDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="neo" type="462c0819:PsiDirectoryNode" />
-              <item name="echo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SourceCodeDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neo" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neo" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neo" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.33.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.33.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.33.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.33.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.33.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.33.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.33.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="NettyServer&#9;PSI&#9;JAVA://com.alibaba.dubbo.remoting.transport.netty4.NettyServer" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -301,6 +592,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dubbo/src/main/resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/netty/src/main" />
       <recent name="$PROJECT_DIR$/netty/src/main/java/com/neo/examples" />
@@ -319,7 +613,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EchoClient">
+  <component name="RunManager" selected="Application.Provider">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neo.consumer.Consumer" />
+      <module name="dubbo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neo.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.neo.echo2.EchoClient" />
       <module name="netty" />
@@ -360,6 +665,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.neo.echo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Provider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neo.provider.Provider" />
+      <module name="dubbo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neo.provider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -408,13 +724,16 @@
     <list>
       <item itemvalue="Application.EchoServer" />
       <item itemvalue="Application.EchoClient" />
+      <item itemvalue="Application.Provider" />
+      <item itemvalue="Application.Consumer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Provider" />
+        <item itemvalue="Application.Consumer" />
         <item itemvalue="Application.EchoClient" />
         <item itemvalue="Application.EchoServer" />
         <item itemvalue="Application.EchoClient" />
-        <item itemvalue="Application.EchoServer" />
       </list>
     </recent_temporary>
   </component>
@@ -430,12 +749,14 @@
       <updated>1550588579759</updated>
       <workItem from="1550588582309" duration="4516000" />
       <workItem from="1550675426530" duration="526000" />
-      <workItem from="1550676019108" duration="1909000" />
+      <workItem from="1550676019108" duration="3391000" />
+      <workItem from="1552181852363" duration="363000" />
+      <workItem from="1552400777665" duration="8958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6951000" />
+    <option name="totallyTimeSpent" value="17754000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,6 +769,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32969698" />
@@ -459,11 +781,12 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.29454544" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.28121212" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.36121213" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.31878787" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1881259" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.15164521" />
       <window_info anchor="bottom" id="Statistic" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
@@ -471,7 +794,7 @@
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.2860606" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.29818183" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
@@ -479,6 +802,38 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.36121213" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.24606061" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.13805436" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.29939395" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.32969698" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.35878786" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -488,325 +843,446 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6.jar!/com/alibaba/dubbo/remoting/transport/netty4/NettyServer.class</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6.jar!/com/alibaba/dubbo/config/spring/ServiceBean.class</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/Transporters.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/rpc/protocol/dubbo/DubboProtocol.java</url>
+          <line>250</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>getBindAddress()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Runtime.getRuntime().availableProcessors()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getUrl().getPositiveParameter(Constants.IO_THREADS_KEY, Constants.DEFAULT_IO_THREADS)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/config/AbstractConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        <state relative-caret-position="255">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoServer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/config/AbstractServiceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        <state relative-caret-position="160">
+          <caret line="167" column="16" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#1171#1524#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#2521#2522#0" expanded="true" />
+            <element signature="e#2549#2550#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoServerHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/config/AbstractInterfaceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="55">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoClientHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/rpc/protocol/dubbo/DubboCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/exchange/ExchangeChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/telnet/TelnetHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/exchange/ExchangeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/telnet/support/TelnetHandlerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/exchange/support/ExchangeHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/common/extension/SPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/ChannelHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/ChannelHandlerDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/AbstractChannelHandlerDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="23" column="69" lean-forward="true" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/exchange/support/header/HeaderExchangeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/DecodeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/common/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="433" selection-start-line="433" selection-end-line="433" />
+          <folding>
+            <element signature="e#11393#11394#0" expanded="true" />
+            <element signature="e#11452#11453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/common/utils/ExecutorUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/common/extension/ExtensionLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="105" column="41" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
+          <folding>
+            <element signature="e#2819#2849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/dispatcher/ChannelHandlers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#1542#1543#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/AbstractPeer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/AbstractEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/NioEventLoopGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="122" column="47" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3190">
+          <caret line="164" column="17" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/netty4/NettyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/netty4/NettyCodecAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+          <folding>
+            <element signature="e#1936#1937#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/common/store/DataStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-          </folding>
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/echo/EchoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="26" column="3" selection-start-line="26" selection-end-line="26" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/udt/nio/NioUdtProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#1171#1524#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SourceCodeDemo.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo2/EchoServerHandler.java" />
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo2/EchoClientHandler.java" />
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo2/EchoServer.java" />
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo2/EchoClient.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/spdy/server/SpdyServer.java" />
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http/helloworld/HttpHelloWorldServerHandler.java" />
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/udt/echo/bytes/ByteEchoClient.java" />
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/discard/DiscardClient.java" />
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/udt/echo/bytes/ByteEchoClientHandler.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/barchart/udt/barchart-udt4/1.0.2/barchart-udt4-1.0.2.jar!/com/barchart/udt/SocketUDT.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/udt/nio/NioUdtProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/io/netty/example/ocsp/README.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/udt/echo/message/MsgEchoServer.java" />
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/helloworld/server/Http2Server.java" />
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/objectecho/ObjectEchoClientHandler.java" />
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/echo/EchoServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/binary/MemcacheClient.java" />
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/ocsp/OcspUtils.java" />
-    <entry file="file://$PROJECT_DIR$/SourceCodeDemo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/echo/EchoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoClient.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/AbstractServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#6808#6809#0" expanded="true" />
+            <element signature="e#6842#6843#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/common/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="177">
+          <caret line="273" column="31" selection-start-line="273" selection-start-column="31" selection-end-line="273" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/netty4/NettyTransporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="53" column="72" selection-start-line="53" selection-start-column="72" selection-end-line="53" selection-end-column="72" />
+        <state relative-caret-position="180">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoServerHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/Transporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="43" column="53" lean-forward="true" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/Transporters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/exchange/support/header/HeaderExchanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/exchange/Exchangers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/rpc/protocol/dubbo/DubboProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="252" selection-start-line="252" selection-end-line="252" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/registry/integration/RegistryProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/rpc/protocol/ProtocolListenerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/qos/protocol/QosProtocolWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/rpc/protocol/ProtocolFilterWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/rpc/Protocol.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/config/ServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="218" selection-start-line="218" selection-end-line="218" />
+          <folding>
+            <element signature="e#7358#7359#0" expanded="true" />
+            <element signature="e#7391#7392#0" expanded="true" />
+            <element signature="e#13514#13530#0" expanded="true" />
+            <element signature="e#33466#33467#0" expanded="true" />
+            <element signature="e#33497#33498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/event/SimpleApplicationEventMulticaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="576" selection-start-line="576" selection-end-line="576" />
+          <folding>
+            <element signature="e#13705#13706#0" expanded="true" />
+            <element signature="e#13737#13738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="46" column="65" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/provider/Provider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/config/spring/ServiceBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="131" column="27" selection-start-line="131" selection-start-column="27" selection-end-line="131" selection-end-column="27" />
+        <state relative-caret-position="149">
+          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoServer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/netty4/NettyServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#1171#1524#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="199">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/echo/EchoClientHandler.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="232">
+          <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="42" />
         </state>
       </provider>
     </entry>
