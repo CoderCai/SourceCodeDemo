@@ -29,8 +29,8 @@ import io.netty.handler.codec.http2.InboundHttp2ToHttpAdapter;
 import java.util.concurrent.TimeUnit;
 
 import static io.netty.buffer.Unpooled.EMPTY_BUFFER;
-import static io.netty.example.http2.Http2ExampleUtil.firstValue;
-import static io.netty.example.http2.Http2ExampleUtil.toInt;
+import static com.neo.examples.http2.Http2ExampleUtil.firstValue;
+import static com.neo.examples.http2.Http2ExampleUtil.toInt;
 import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;
 import static io.netty.handler.codec.http.HttpResponseStatus.BAD_REQUEST;
 import static io.netty.handler.codec.http.HttpResponseStatus.OK;

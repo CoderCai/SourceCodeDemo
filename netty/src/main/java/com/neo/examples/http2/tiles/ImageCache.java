@@ -23,7 +23,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static io.netty.buffer.Unpooled.unreleasableBuffer;
-import static io.netty.example.http2.Http2ExampleUtil.toByteBuf;
+import static com.neo.examples.http2.Http2ExampleUtil.toByteBuf;
 
 /**
  * Caches the images to avoid reading them every time from the disk.

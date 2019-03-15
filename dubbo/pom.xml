@@ -39,10 +39,10 @@
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-framework</artifactId>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>apache-curator</artifactId>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-client</artifactId>

@@ -18,7 +18,7 @@ package com.neo.examples.http2.helloworld.multiplex.server;
 
 import io.netty.channel.*;
 import io.netty.channel.socket.SocketChannel;
-import io.netty.example.http2.helloworld.server.HelloWorldHttp1Handler;
+import com.neo.examples.http2.helloworld.server.HelloWorldHttp1Handler;
 import io.netty.handler.codec.http.HttpMessage;
 import io.netty.handler.codec.http.HttpObjectAggregator;
 import io.netty.handler.codec.http.HttpServerCodec;

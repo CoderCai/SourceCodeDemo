@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.neo.test.AppTest" time="0.055" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.neo.test.AppTest" time="0.079" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/xiechanghong/Code/SourceCodeDemo/spark/target/surefire/surefirebooter11159229485914834730.jar /Users/xiechanghong/Code/SourceCodeDemo/spark/target/surefire 2019-03-15T00-16-35_129-jvmRun1 surefire3959650958862857833tmp surefire_13196988666391649231tmp"/>
+    <property name="sun.java.command" value="/Users/xiechanghong/Code/SourceCodeDemo/spark/target/surefire/surefirebooter9239991857690890837.jar /Users/xiechanghong/Code/SourceCodeDemo/spark/target/surefire 2019-03-15T23-23-02_532-jvmRun1 surefire1764820909794659385tmp surefire_13785398083894052868tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/xiechanghong/Code/SourceCodeDemo/spark/target/test-classes:/Users/xiechanghong/Code/SourceCodeDemo/spark/target/classes:/Users/xiechanghong/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/xiechanghong/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/xiechanghong/Code/SourceCodeDemo/spark/target/surefire/surefirebooter11159229485914834730.jar"/>
+    <property name="surefire.real.class.path" value="/Users/xiechanghong/Code/SourceCodeDemo/spark/target/surefire/surefirebooter9239991857690890837.jar"/>
     <property name="user.script" value="Hans"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
