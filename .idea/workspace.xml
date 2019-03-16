@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a51b7d6-cbc8-424a-b64f-30a1536694ea" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/DirExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/DirExtensionDefaultImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/DirExtensionFirstImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/DirExtensionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/SpiConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi2/Dir2Extension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi2/Dir2ExtensionAdaptive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi2/Dir2ExtensionDefaultImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi2/Dir2ExtensionFirstImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/resources/META-INF/dubbo/com.neo.spi.DirExtension" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/src/main/resources/META-INF/dubbo/com.neo.spi2.Dir2Extension" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/target/kafka-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/target/kafka-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/target/surefire-reports/TEST-com.neo.test.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/target/surefire-reports/TEST-com.neo.test.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/target/surefire-reports/com.neo.test.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/target/surefire-reports/com.neo.test.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http/websocketx/client/WebSocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http/websocketx/client/WebSocketClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/helloworld/frame/server/Http2OrHttpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/helloworld/frame/server/Http2OrHttpHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/helloworld/frame/server/Http2ServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/helloworld/frame/server/Http2ServerInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/helloworld/multiplex/server/Http2OrHttpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/helloworld/multiplex/server/Http2OrHttpHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/helloworld/multiplex/server/Http2ServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/helloworld/multiplex/server/Http2ServerInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/tiles/Http2RequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/tiles/Http2RequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/tiles/ImageCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/tiles/ImageCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/target/spark-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spark/target/spark-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/target/surefire-reports/TEST-com.neo.test.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark/target/surefire-reports/TEST-com.neo.test.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/target/surefire-reports/com.neo.test.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spark/target/surefire-reports/com.neo.test.AppTest.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,55 +45,105 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/echo/EchoClientHandler.java">
+        <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/DirExtension.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/DirExtensionDefaultImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <folding>
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/DirExtensionFirstImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/SpiConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/DirExtensionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#434#450#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi2/Dir2Extension.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi2/Dir2ExtensionDefaultImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi2/Dir2ExtensionFirstImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/tiles/ImageCache.java">
+        <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi2/Dir2ExtensionAdaptive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/helloworld/multiplex/server/Http2OrHttpHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/helloworld/multiplex/server/Http2ServerInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="99" column="60" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/helloworld/frame/server/Http2OrHttpHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/tiles/Http2RequestHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+            <state relative-caret-position="241">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,36 +152,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dubbo/pom.xml">
+        <entry file="file://$PROJECT_DIR$/dubbo/src/main/resources/META-INF/dubbo/com.neo.spi2.Dir2Extension">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="41" column="12" selection-start-line="41" selection-start-column="8" selection-end-line="44" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$MAVEN_REPOSITORY$/org/apache/curator/apache-curator/2.11.1/apache-curator-2.11.1.pom">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http/cors/HttpCorsServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -194,6 +213,17 @@
         <option value="$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/tiles/ImageCache.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/DirExtension.java" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/DirExtensionDefaultImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/DirExtensionFirstImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/SpiConstants.java" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/resources/META-INF/dubbo/com.neo.spi.DirExtension" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/DirExtensionTest.java" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi2/Dir2Extension.java" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi2/Dir2ExtensionDefaultImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi2/Dir2ExtensionFirstImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi2/Dir2ExtensionAdaptive.java" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/resources/META-INF/dubbo/com.neo.spi2.Dir2Extension" />
       </list>
     </option>
   </component>
@@ -286,6 +316,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="neo" type="462c0819:PsiDirectoryNode" />
+              <item name="spi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neo" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -295,6 +335,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SourceCodeDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -437,7 +486,7 @@
     <property name="SearchEverywhereHistoryKey" value="ExtensionLoader&#9;FILE&#9;jar:///Users/xiechanghong/.m2/repository/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/common/extension/ExtensionLoader.java&#10;Protocol&#9;FILE&#9;jar:///Users/xiechanghong/.m2/repository/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/rpc/Protocol.java&#10;NettyServer&#9;PSI&#9;JAVA://com.alibaba.dubbo.remoting.transport.netty4.NettyServer" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552663445127" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552751350125" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -469,7 +518,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Consumer">
+  <component name="RunManager" selected="Application.DirExtensionTest">
     <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.neo.consumer.Consumer" />
       <module name="dubbo" />
@@ -477,6 +526,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.neo.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirExtensionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neo.spi.DirExtensionTest" />
+      <module name="dubbo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neo.spi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -508,20 +571,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.neo.echo2.EchoServer" />
-      <module name="netty" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.neo.echo2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.neo.echo.EchoServer" />
@@ -585,19 +634,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.EchoServer" />
       <item itemvalue="Application.EchoClient" />
       <item itemvalue="Application.Provider" />
       <item itemvalue="Application.Consumer" />
       <item itemvalue="Application.HttpCorsServer" />
+      <item itemvalue="Application.DirExtensionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DirExtensionTest" />
         <item itemvalue="Application.Consumer" />
         <item itemvalue="Application.Provider" />
         <item itemvalue="Application.HttpCorsServer" />
         <item itemvalue="Application.EchoClient" />
-        <item itemvalue="Application.EchoServer" />
       </list>
     </recent_temporary>
   </component>
@@ -619,12 +668,12 @@
       <workItem from="1552489383794" duration="1714000" />
       <workItem from="1552492745604" duration="6200000" />
       <workItem from="1552580685968" duration="28000" />
-      <workItem from="1552608474692" duration="2372000" />
+      <workItem from="1552608474692" duration="3572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28560000" />
+    <option name="totallyTimeSpent" value="29760000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,23 +686,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2353362" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19742489" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Statistic" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3686747" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.24819277" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="5" weight="0.5253012" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.2686747" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.29036143" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.26626506" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -801,130 +851,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/rpc/protocol/dubbo/DubboCountCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/netty4/NettyCodecAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/handler/codec/MessageToByteEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
-          <folding>
-            <element signature="e#5234#5261#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="892" selection-start-line="892" selection-end-line="892" />
-          <folding>
-            <element signature="e#10735#10736#0" expanded="true" />
-            <element signature="e#10771#10772#0" expanded="true" />
-            <element signature="e#13389#13390#0" expanded="true" />
-            <element signature="e#13458#13459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="1365" selection-start-line="1365" selection-end-line="1365" />
-          <folding>
-            <element signature="e#44566#44567#0" expanded="true" />
-            <element signature="e#44601#44602#0" expanded="true" />
-            <element signature="e#45981#45982#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="740" selection-start-line="740" selection-end-line="740" />
-          <folding>
-            <element signature="e#4125#4126#0" expanded="true" />
-            <element signature="e#4166#4167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/netty4/NettyClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="95" column="20" lean-forward="true" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/AbstractPeer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="138" selection-start-line="138" selection-end-line="138" />
-          <folding>
-            <element signature="e#3209#3210#0" expanded="true" />
-            <element signature="e#3250#3251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/exchange/support/header/HeartbeatHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#1683#1684#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/ChannelHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/exchange/support/header/HeaderExchangeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="158" selection-start-line="158" selection-end-line="158" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/AbstractChannelHandlerDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/dispatcher/WrappedChannelHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/exchange/support/header/HeaderExchangeChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6-sources.jar!/com/alibaba/dubbo/remoting/transport/netty4/NettyClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -995,13 +921,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/tiles/HttpServer.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/provider/Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/helloworld/server/Http2ServerInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1080,16 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http/cors/HttpCorsServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http2/tiles/ImageCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -1145,6 +1054,147 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="41" column="12" selection-start-line="41" selection-start-column="8" selection-end-line="44" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/provider/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http/cors/HttpCorsServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http/cors/HttpCorsServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/neo/examples/http/cors/OkResponseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/DirExtensionFirstImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/SpiConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/DirExtensionDefaultImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/src/main/resources/META-INF/dubbo/com.neo.spi.DirExtension">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="42" lean-forward="true" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/DirExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi/DirExtensionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi2/Dir2Extension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi2/Dir2ExtensionDefaultImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi2/Dir2ExtensionFirstImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/neo/spi2/Dir2ExtensionAdaptive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/src/main/resources/META-INF/dubbo/com.neo.spi2.Dir2Extension">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
         </state>
       </provider>
     </entry>
