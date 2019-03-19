@@ -9,13 +9,14 @@ public class ConsumerWithoutSpring {
     public static void main(String[] args) {
         // 当前应用配置
         ApplicationConfig application = new ApplicationConfig();
-        application.setName("NeoTest");
+        application.setName("consumer-of-helloworld-app");
 
         // 连接注册中心配置
         RegistryConfig registry = new RegistryConfig();
-        registry.setAddress("localhost:2181");
-        registry.setUsername("aaa");
-        registry.setPassword("bbb");
+        registry.setAddress("zookeeper://localhost:2181");
+        //registry.setClient("netty4");
+        //registry.setUsername("aaa");
+        //registry.setPassword("bbb");
 
         // 注意：ReferenceConfig为重对象，内部封装了与注册中心的连接，以及与服务提供方的连接
         // 引用远程服务
