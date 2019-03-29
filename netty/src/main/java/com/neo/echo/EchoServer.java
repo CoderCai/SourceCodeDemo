@@ -22,7 +22,7 @@ public class EchoServer {
         // 创建EventLoopGroup
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
-        // 创建EventLoopGroup
+        // 创建服务端启动类
         ServerBootstrap b = new ServerBootstrap();
         b.group(bossGroup, workerGroup)
                 //指定所使用的NIO传输Channel

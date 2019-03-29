@@ -38,7 +38,7 @@ public class EchoClient {
 
     public static void main(String[] args) {
         //start();
-        for (int i = 0; i < 1000; ++i) {
+        for (int i = 0; i < 10; ++i) {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
