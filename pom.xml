@@ -14,6 +14,8 @@
         <module>netty</module>
         <module>dubbo</module>
         <module>mybatis</module>
+        <module>HBase</module>
+        <module>hbase</module>
     </modules>
 
     <name>source-code</name>
@@ -33,10 +35,16 @@
         <spring.version>5.1.5.RELEASE</spring.version>
         <curator.version>2.11.1</curator.version>
         <apache.curator.version>2.11.1</apache.curator.version>
+        <hbase.client.version>1.2.9</hbase.client.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.apache.hbase</groupId>
+                <artifactId>hbase-client</artifactId>
+                <version>${hbase.client.version}</version>
+            </dependency>
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
