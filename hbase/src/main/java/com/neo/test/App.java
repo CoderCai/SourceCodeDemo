@@ -23,9 +23,10 @@ public class App
     public static void main(String[] args) {
         //createTable("hbase_test1");
         //insertData("hbase_test1");
-        getRowData("hbase_test1","rowkey00000001","F3","Q1");
+        //getRowData("hbase_test1","rowkey00000001","F3","Q1");
         //scanData("hbase_test1");
         //deleteRow("hbase_test1","rowkey00000001");
+        dropTable("hbase_test1");
     }
 
     public static void createTable(String tableName) {
