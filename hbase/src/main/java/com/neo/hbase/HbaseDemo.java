@@ -3,27 +3,54 @@ package com.neo.hbase;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.TableName;
-import org.apache.hadoop.hbase.client.Admin;
-import org.apache.hadoop.hbase.client.Connection;
-import org.apache.hadoop.hbase.client.ConnectionFactory;
+import org.apache.hadoop.hbase.client.*;
+import org.apache.hadoop.hbase.filter.BinaryComparator;
+import org.apache.hadoop.hbase.filter.CompareFilter;
+import org.apache.hadoop.hbase.filter.FamilyFilter;
+import org.apache.hadoop.hbase.filter.Filter;
 import org.apache.hadoop.hbase.util.Bytes;
 
 import java.io.IOException;
-import java.util.List;
 
 public class HbaseDemo {
     public static Configuration configuration;
+
     static {
         configuration = HBaseConfiguration.create();
     }
 
     public static void main(String[] args) {
         try {
+            // list tables
             Connection connection = ConnectionFactory.createConnection(configuration);
             Admin admin = connection.getAdmin();
             for (TableName name : admin.listTableNames()) {
                 System.out.println(Bytes.toString(name.getName()));
             }
+
+            // scan data
+            Table hbase = connection.getTable(TableName.valueOf("hbase"));
+            Scan scan = new Scan();
+            ResultScanner resultScanner = hbase.getScanner(scan);
+            for (Result result : resultScanner) {
+                System.out.println(result.toString());
+            }
+
+            Filter cFFilter = new FamilyFilter(CompareFilter.CompareOp.EQUAL,
+                    new BinaryComparator(Bytes.toBytes("base")));
+            scan.setFilter(cFFilter);
+            resultScanner = hbase.getScanner(scan);
+            for (Result result : resultScanner) {
+                System.out.println(result.toString());
+            }
+
+            scan.setFilter(null);
+            scan.addColumn(Bytes.toBytes("base"), Bytes.toBytes("name"));
+            resultScanner = hbase.getScanner(scan);
+            for (Result result : resultScanner) {
+                System.out.println(result.toString());
+            }
+            resultScanner.close();
         } catch (IOException e) {
             System.out.println("ex = " + e.toString());
         }
