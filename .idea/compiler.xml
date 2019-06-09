@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo" />
         <module name="hbase" />
+        <module name="jdk" />
         <module name="kafka" />
         <module name="mybatis" />
         <module name="netty" />
