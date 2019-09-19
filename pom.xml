@@ -18,6 +18,7 @@
         <module>hbase</module>
         <module>normal</module>
         <module>jdk</module>
+        <module>Ant</module>
     </modules>
 
     <name>source-code</name>
