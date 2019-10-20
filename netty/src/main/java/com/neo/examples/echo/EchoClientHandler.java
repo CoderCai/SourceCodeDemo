@@ -34,24 +34,28 @@ public class EchoClientHandler extends ChannelInboundHandlerAdapter {
      */
     public EchoClientHandler() {
         firstMessage = Unpooled.buffer(EchoClient.SIZE);
-        for (int i = 0; i < firstMessage.capacity(); i ++) {
+        /*for (int i = 0; i < firstMessage.capacity(); i ++) {
             firstMessage.writeByte((byte) i);
-        }
+        }*/
+        firstMessage.writeBytes("Hello,Neo!".getBytes());
     }
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
         ctx.writeAndFlush(firstMessage);
+        System.out.println("channelActive");
     }
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
         ctx.write(msg);
+        System.out.println("channelRead");
     }
 
     @Override
     public void channelReadComplete(ChannelHandlerContext ctx) {
        ctx.flush();
+        System.out.println("channelReadComplete");
     }
 
     @Override
@@ -59,5 +63,6 @@ public class EchoClientHandler extends ChannelInboundHandlerAdapter {
         // Close the connection when an exception is raised.
         cause.printStackTrace();
         ctx.close();
+        System.out.println("exceptionCaught");
     }
 }

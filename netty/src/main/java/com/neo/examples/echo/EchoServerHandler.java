@@ -28,11 +28,13 @@ public class EchoServerHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
         ctx.write(msg);
+        System.out.println("channelRead >>>>>>> " + msg);
     }
 
     @Override
     public void channelReadComplete(ChannelHandlerContext ctx) {
         ctx.flush();
+        System.out.println("channelReadComplete");
     }
 
     @Override
@@ -40,5 +42,6 @@ public class EchoServerHandler extends ChannelInboundHandlerAdapter {
         // Close the connection when an exception is raised.
         cause.printStackTrace();
         ctx.close();
+        System.out.println("exceptionCaught");
     }
 }
